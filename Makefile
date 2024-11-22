@@ -6,7 +6,7 @@
 #    By: lde-merc <lde-merc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/13 12:55:34 by lde-merc          #+#    #+#              #
-#    Updated: 2024/11/20 15:25:59 by lde-merc         ###   ########.fr        #
+#    Updated: 2024/11/22 12:53:34 by lde-merc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ clean:
 	
 fclean: clean
 	rm -f $(OUT)
-	make -C libft fclean
+	rm -f $(LIBFT)
 	
 re: fclean all
 
